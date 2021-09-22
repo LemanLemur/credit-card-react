@@ -1,0 +1,164 @@
+.App {
+  background: black;
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-invert {
+  margin-bottom: 50px;
+  background: transparent;
+  border: 0px solid white;
+  box-shadow: 0px 0px 10px 0px hsl(224, 81%, 35%);
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  transition: 0.5s;
+}
+
+.button-invert:hover {
+  box-shadow: 0px 0px 18px 0px hsl(39, 83%, 65%);
+}
+
+.logo {
+  width: 36px;
+}
+
+.wifi {
+  height: 36px;
+  transform: rotateZ(90deg);
+}
+
+.chip {
+  width: 38px;
+}
+
+.card-number {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(39, 83%, 65%);
+  text-shadow: 1px 1px 2px #4b3713;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 6px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.payment {
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
+.logo-d {
+  justify-content: end;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.karta {
+  transition: 0.5s;
+  padding: 20px;
+  width: 350px;
+  height: 200px;
+  border-radius: 8px;
+  background: linear-gradient(
+    35deg,
+    white,
+    transparent,
+    white,
+    white,
+    transparent
+  );
+  filter: opacity(0.9);
+  box-shadow: 0px 0px 18px 0px white;
+}
+
+.karta:hover {
+  transform: rotate3d(1, 1, 1, 5deg) scale(1.1);
+  box-shadow: 0px 0px 18px 0px hsl(39, 83%, 65%);
+}
+
+.karta-invert {
+  transition: 0.5s;
+  padding: 20px;
+  width: 350px;
+  height: 200px;
+  border-radius: 8px;
+  background: linear-gradient(
+    35deg,
+    white,
+    transparent,
+    white,
+    white,
+    transparent
+  );
+  filter: opacity(0.9);
+  box-shadow: 0px 0px 18px 0px hsl(39, 83%, 65%);
+  filter: invert();
+}
+
+.karta-invert:hover {
+  transform: rotate3d(1, 1, 1, 5deg) scale(1.1);
+  box-shadow: 0px 0px 18px 0px hsl(39, 83%, 65%);
+}
+
+.bot {
+  margin-top: 8px;
+  justify-content: space-between;
+}
+
+.valid-text {
+  color: white;
+  font-size: 8px;
+  font-weight: 100;
+  margin-right: 10px;
+}
+
+.date-text {
+  color: hsl(39, 83%, 65%);
+  text-shadow: 1px 1px 2px #4b3713;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.maestro {
+  width: 64px;
+}
+
+.name {
+  color: hsl(39, 83%, 65%);
+  text-shadow: 1px 1px 2px #4b3713;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 12px;
+}
+
+.flex-t {
+  align-items: center;
+}
+
+.trinagle {
+  transform: rotateZ(90deg);
+  margin-right: 10px;
+  width: 24px;
+  height: 18px;
+}
